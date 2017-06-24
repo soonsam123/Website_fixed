@@ -1,0 +1,19 @@
+/*=============MEDIA================
+Resizing the window if it get less than 600 px.*/
+@media (max-width: 600px){
+	#logo1{
+		float:left;
+	}
+	.sidebar{
+		display:none;
+	}
+	#box{
+		background-color: darkred;
+	}
+}
+@media (max-width: 400px){
+	#box{
+		background-color: darkgreen;
+	}
+}
+
